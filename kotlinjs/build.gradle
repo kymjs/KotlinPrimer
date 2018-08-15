@@ -1,0 +1,15 @@
+plugins {
+    id 'kotlin2js' version '1.2.60'
+}
+
+group 'com.kymjs'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-js"
+    testCompile "org.jetbrains.kotlin:kotlin-test-js"
+}
